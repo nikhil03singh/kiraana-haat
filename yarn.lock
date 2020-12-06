@@ -9,10 +9,23 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+bootstrap-social@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/bootstrap-social/-/bootstrap-social-5.1.1.tgz#7530c678adf56cf8fad3fa82c29d4d3e5d027501"
+  integrity sha1-dTDGeK31bPj60/qCwp1NPl0CdQE=
+  dependencies:
+    bootstrap "~3"
+    font-awesome "~4.7"
+
 bootstrap@^4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
   integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
+
+bootstrap@~3:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
+  integrity sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==
 
 call-bind@^1.0.0:
   version "1.0.0"
@@ -86,6 +99,11 @@ es-to-primitive@^1.2.1:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
+
+font-awesome@^4.7.0, font-awesome@~4.7:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
 
 function-bind@^1.1.1:
   version "1.1.1"
